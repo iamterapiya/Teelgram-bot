@@ -1,23 +1,12 @@
-# Yuz Tahlil Bot - Requirements
-# Developer: @iamcamandar
+# opencv-python o'rniga buni ishlating:
+opencv-python-headless
+```
 
-# Telegram Bot
-python-telegram-bot==20.7
+Bu versiya GUI kutubxonalarisiz keladi va serverda muammosiz ishlaydi.
 
-# Computer Vision
-opencv-python==4.8.1.78
-opencv-python-headless==4.8.1.78
+### **4. Railway/Render uchun:**
 
-# Face Analysis
-deepface==0.0.79
-tf-keras==2.15.0
-
-# TensorFlow (CPU version - serverlar uchun)
-tensorflow==2.15.0
-
-# Image Processing
-Pillow==10.1.0
-numpy==1.24.3
-
-# Utilities
-retina-face==0.0.13
+Agar Railway yoki Render platformasidan foydalansangiz, loyihangiz root papkasida `aptfile` yoki `Aptfile` nomli fayl yarating va ichiga quyidagilarni yozing:
+```
+libgl1-mesa-glx
+libglib2.0-0
