@@ -1,0 +1,23 @@
+# Yuz Tahlil Bot - Requirements
+# Developer: @iamcamandar
+
+# Telegram Bot
+python-telegram-bot==20.7
+
+# Computer Vision
+opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78
+
+# Face Analysis
+deepface==0.0.79
+tf-keras==2.15.0
+
+# TensorFlow (CPU version - serverlar uchun)
+tensorflow==2.15.0
+
+# Image Processing
+Pillow==10.1.0
+numpy==1.24.3
+
+# Utilities
+retina-face==0.0.13
